@@ -1,7 +1,7 @@
 {
   "name": "express-seo-redirects",
   "version": "1.0.0",
-  "description": "Very simple, config based 301/302 redirects for express",
+  "description": "Simple config based 301/302 redirects for express",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

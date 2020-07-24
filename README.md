@@ -1,6 +1,6 @@
 # express-seo-redirects
 
-Very simple, config based 301/302 redirects for express.
+Simple config based 301/302 redirects for express.
 
 ## Install
 
@@ -39,11 +39,11 @@ Create a `redirects.json` file in the root of your project, with a list of redir
 
 Each redirect can have 3 parameters:
 
-Property | Type    | Required | Description
--------- | ------- | ------------------------------------------------- | ---
-`from`     | string  | :heavy_check_mark: | Relative URL of incoming request
-`to`       | string  | :heavy_check_mark: | Destination URL
-`status`   | integer |  | HTTP response code _(302 if not provided)_
+Property | Type    | Required           | Description
+-------- |:------- |:------------------:|:------------------------------------------
+`from`   | string  | :heavy_check_mark: | Relative URL of incoming request
+`to`     | string  | :heavy_check_mark: | Destination URL
+`status` | integer |                    | HTTP response code _(302 if not provided)_
 
 ## Contributing
 
