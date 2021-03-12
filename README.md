@@ -45,6 +45,8 @@ Property | Type    | Required           | Description
 `to`     | string  | :heavy_check_mark: | Destination URL
 `status` | integer |                    | HTTP response code _(302 if not provided)_
 
+QueryStrings are ignored by default, to match on path and query string pass `app.use(redirects('./redirects.json', true));` as the second param to enable strict mode.
+
 ## Contributing
 
 Feel free to contribute, either by [raising an issue](https://github.com/orca-scan/express-seo-redirects/issues) or:
@@ -61,4 +63,4 @@ For change-log, check [releases](https://github.com/orca-scan/express-seo-redire
 
 ## License
 
-Licensed under [MIT License](LICENSE) &copy; [Orca Scan](https://orcascan.com)
+Licensed under [MIT License](LICENSE) &copy; Orca Scan - [Barcode Tracking, Simplified.](https://orcascan.com)
