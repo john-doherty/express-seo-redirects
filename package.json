@@ -1,6 +1,6 @@
 {
   "name": "express-seo-redirects",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple config based 301/302 redirects for express",
   "main": "index.js",
   "scripts": {
