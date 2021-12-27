@@ -1,6 +1,6 @@
 {
   "name": "express-seo-redirects",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple config based 301/302 redirects for express",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/orca-scan/express-seo-redirects.git"
+    "url": "git+https://github.com/john-doherty/express-seo-redirects.git"
   },
   "keywords": [
     "express",
@@ -20,9 +20,9 @@
   "author": "John Doherty <contact@johndoherty.info> (www.johndoherty.info)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/orca-scan/express-seo-redirects/issues"
+    "url": "https://github.com/john-doherty/express-seo-redirects/issues"
   },
-  "homepage": "https://github.com/orca-scan/express-seo-redirects#readme",
+  "homepage": "https://github.com/john-doherty/express-seo-redirects#readme",
   "dependencies": {
     "shush": "^1.0.0"
   }
