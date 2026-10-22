@@ -1,5 +1,7 @@
 # express-seo-redirects
 
+[![Tests](https://github.com/john-doherty/express-seo-redirects/actions/workflows/ci.yml/badge.svg)](https://github.com/john-doherty/express-seo-redirects/actions/workflows/ci.yml)
+
 Simple config based 301/302 redirects for express.
 
 ## Install
@@ -45,7 +47,26 @@ Property | Type    | Required           | Description
 `to`     | string  | :heavy_check_mark: | Destination URL
 `status` | integer |                    | HTTP response code _(302 if not provided)_
 
-QueryStrings are ignored by default, to match on path and query string pass `app.use(redirects('./redirects.json', true));` as the second param to enable strict mode.
+## Options
+
+Pass an options object as the second param:
+
+```js
+app.use(redirects('./redirects.json', { ignoreTrailingSlash: true }));
+```
+
+Option                | Default | Description
+--------------------- |:------- |:------------------------------------------
+`strict`              | `false` | Match on path and query string. QueryStrings are ignored by default
+`ignoreTrailingSlash` | `false` | Match `/old` and `/old/` against the same redirect, so a request with a trailing slash goes straight to its destination instead of being redirected twice (once to remove the slash, then again to the new url)
+
+Passing `true` as the second param still enables strict mode, as in earlier versions: `app.use(redirects('./redirects.json', true));`
+
+## Tests
+
+```bash
+npm test
+```
 
 ## Contributing
 
