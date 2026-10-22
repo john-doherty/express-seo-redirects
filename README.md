@@ -1,5 +1,7 @@
 # express-seo-redirects
 
+[![Tests](https://github.com/john-doherty/express-seo-redirects/actions/workflows/ci.yml/badge.svg)](https://github.com/john-doherty/express-seo-redirects/actions/workflows/ci.yml)
+
 Simple config based 301/302 redirects for express.
 
 ## Install
