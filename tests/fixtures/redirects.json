@@ -1,0 +1,11 @@
+[
+    // comments are allowed
+    { "status": 301, "from": "/old", "to": "/new" },
+    { "status": 301, "from": "/legacy/", "to": "/modern" },
+    { "from": "/temporary", "to": "/elsewhere" },
+    { "status": 301, "from": "/search?q=old", "to": "/search?q=new" },
+    { "status": 301, "from": "/", "to": "/home" },
+    { "status": 301, "from": "/empty", "to": "" },
+    { "status": 301, "from": "/no-destination" },
+    { "status": 307, "from": "/old", "to": "/should-never-be-used" }
+]
